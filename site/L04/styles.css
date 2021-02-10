@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	background-color: orange;
+	}
+
+h1 {
+	font-size: 100px;
+	margin-bottom: 1px;
+	}
+
+#Menu > h2 {
+	font-size: 75px;
+	}
+
+#Menu span {
+	font-size: 35px;
+	}
+#juice h2 {
+	font-size: 35px;
+	}
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+	}
+a:hover, a:active {
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	}
+	body li {
+	list-style: none;
+	font-size: 25px;
+	}
+h3 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 22,5px;
+	display: block;
+	width: 10;
+	}
+	li > a {
+	text-decoration: underline;
+	}

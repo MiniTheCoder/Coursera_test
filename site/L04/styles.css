@@ -3,6 +3,10 @@ body {
 	background-color: orange;
 	}
 
+#exp{
+	text-align: left;
+}
+
 h1 {
 	font-size: 100px;
 	margin-bottom: 1px;
@@ -59,6 +63,11 @@ a {
 
 #RamoArte {
 	background-color: black;
+	padding: 20px;
+	border-radius: 12px;
+  	border: 12px;
+  	border-style: solid;
+  	border-color: white;
 	color: white;
 	font-size: 22,5px;
 	width: 50%;
@@ -159,4 +168,5 @@ display: grid;
 		}
 		#voltar {
 			text-decoration: underline;
+			text-align: center;
 		}

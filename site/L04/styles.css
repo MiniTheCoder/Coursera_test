@@ -8,20 +8,32 @@ h1 {
 	margin-bottom: 1px;
 	}
 
-#Menu > h2 {
+#Menu {
+	text-align: center;
+	margin: 25px;
+	margin-bottom: 45px;
+	padding: 15px;
+}
+
+#Menu > span {
 	font-size: 75px;
 	}
 
+#juice {
+	text-align: left;
+}
+
 #Menu span {
-	font-size: 35px;
+	font-size: 40px;
 	}
 #juice h2 {
 	font-size: 35px;
 	}
 a:link, a:visited {
-	text-decoration: none;
 	color: black;
+	text-decoration: underline;
 	}
+
 a:hover, a:active {
 	background-color: blue;
 	color: white;
@@ -31,14 +43,120 @@ a:hover, a:active {
 	list-style: none;
 	font-size: 25px;
 	}
-h3 {
+a {
+	text-decoration: underline;
+	color: black;
+}
+
+#ar {
+	text-align: center;
+}
+
+#ar > section {
+	text-align: center;
+	align-content: center;
+}
+
+#RamoArte {
 	background-color: black;
 	color: white;
-	text-align: center;
 	font-size: 22,5px;
-	display: block;
-	width: 10;
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+	margin: 25px;
+}
+
+#RamoArte a {
+	color: white;
+}
+
+#RamoArte > h3 {
+	font-size: 30px;
+}
+
+#ari img {
+	vertical-align: middle;
+	position: absolute;
+	left: 50%;
+	margin: 15px;
 	}
-	li > a {
-	text-decoration: underline;
-	}
+
+#ar li {
+display: grid;
+}
+
+.flex-content {
+			text-align: center;
+			display: flex;
+		}
+
+		.Formação {
+			flex: 1;
+
+		}
+
+		.Cursos {
+			flex: 1;
+		}
+
+		section > h2 {
+			font-size: 75px;
+		}
+
+		section.Formação > ul {
+			text-align: left;
+		}
+
+		main.flex-content li {
+			margin: 50px;
+		}
+
+		li span {
+			font-size: 20px;
+		}
+
+		#tit {
+			font-weight: bold;
+		}
+
+		#tese {
+			font-style: italic;
+		}
+
+		#homepagebutton {
+			text-decoration: underline;
+		}
+
+		section.musica {
+			text-align: left;
+		}
+
+		h1 {
+			margin-bottom: 60px;
+		}
+		p {
+			text-align: left;
+			width: 80%;
+			font-size: 17px;
+		}
+		section.formação ul {
+			text-align: left;
+		}
+		li {
+			padding: 10px;
+		}
+		li > h2 {
+			margin: 5px;
+			position: relative;
+			text-decoration: underline;
+		}
+		#pic {
+			position: absolute;
+			left: 80%;
+			width: 80%;
+			height: 60px;
+		}
+		#voltar {
+			text-decoration: underline;
+		}

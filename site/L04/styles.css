@@ -1,18 +1,85 @@
 body {
 	text-align: center;
 	background-color: orange;
-	}
-
-#exp{
-	text-align: left;
 }
 
 h1 {
 	font-size: 100px;
 	margin-bottom: 1px;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+
+body li {
+	list-style: none;
+	font-size: 25px;
 	}
 
-#Menu {
+a {
+	text-decoration: underline;
+	color: black;
+}
+
+#voltar {
+	text-decoration: underline;
+	text-align: center;
+}
+
+section > h2 {
+	font-size: 75px;
+}
+
+li span {
+	font-size: 20px;
+}
+
+h1 {
+	margin-bottom: 60px;
+}
+		
+p {
+	text-align: left;
+	width: 80%;
+	font-size: 17px;
+}
+li {
+	padding: 10px;
+}
+
+li > h2 {
+	margin: 5px;
+	position: relative;
+	text-decoration: underline;
+}
+
+/************* Content FLEX ************/
+.flex-content {
+			text-align: center;
+			display: flex;
+		}
+
+div.item-container {
+	padding: 10px;
+	margin: 5px;
+	text-align: left;
+}
+/*************************************/
+/*H************************************************************** USADO EM TODOS FIM *************************/
+
+/*H****************** USADO Home Page *************************/
+#exp{
+	text-align: left;
+
+}#Menu {
 	text-align: center;
 	margin: 25px;
 	margin-bottom: 45px;
@@ -33,24 +100,7 @@ h1 {
 #juice h2 {
 	font-size: 35px;
 	}
-a:link, a:visited {
-	color: black;
-	text-decoration: underline;
-	}
 
-a:hover, a:active {
-	background-color: blue;
-	color: white;
-	cursor: pointer;
-	}
-	body li {
-	list-style: none;
-	font-size: 25px;
-	}
-a {
-	text-decoration: underline;
-	color: black;
-}
 
 #ar {
 	text-align: center;
@@ -84,89 +134,129 @@ a {
 	font-size: 30px;
 }
 
-#ari img {
-	vertical-align: middle;
-	position: absolute;
-	left: 50%;
-	margin: 15px;
-	}
+
 
 #ar li {
 display: grid;
 }
 
-.flex-content {
-			text-align: center;
-			display: flex;
-		}
+/************************************** FIM de HOME PAGE ******************************/
 
-		.Formação {
-			flex: 1;
 
-		}
+/************Formação Académica ************/
 
-		.Cursos {
-			flex: 1;
-		}
+.Formação {
+flex: 1;
+}
 
-		section > h2 {
-			font-size: 75px;
-		}
+main.flex-content li {
+	margin-bottom: 50px;
+}
+section.Formação > ul {
+	text-align: left;
+}
 
-		section.Formação > ul {
-			text-align: left;
-		}
+img.fa-pic{
+	padding: 10px;
+}
 
-		main.flex-content li {
-			margin: 50px;
-		}
+#tit {
+	font-weight: bold;
+}
 
-		li span {
-			font-size: 20px;
-		}
+#tit img {
+	padding: 10px; /* Vai dar padding à width total das imagens */
+}
 
-		#tit {
-			font-weight: bold;
-		}
+#tese {
+	font-style: italic;
+}
 
-		#tese {
-			font-style: italic;
-		}
+section.formação ul {
+	text-align: left;
+}
 
-		#homepagebutton {
-			text-decoration: underline;
-		}
+/************* Actividade Artistica *********/
 
-		section.musica {
-			text-align: left;
-		}
+#pa-flex.flex-content {
+	box-sizing: border-box;
+	border: 20px solid black;
+	border-radius: 10px;
+	display: flex;
+}
 
-		h1 {
-			margin-bottom: 60px;
-		}
-		p {
-			text-align: left;
-			width: 80%;
-			font-size: 17px;
-		}
-		section.formação ul {
-			text-align: left;
-		}
-		li {
-			padding: 10px;
-		}
-		li > h2 {
-			margin: 5px;
-			position: relative;
-			text-decoration: underline;
-		}
-		#pic {
-			position: absolute;
-			left: 80%;
-			width: 80%;
-			height: 60px;
-		}
-		#voltar {
-			text-decoration: underline;
-			text-align: center;
-		}
+.pa-flex-item {
+	box-sizing: border-box;
+	margin: 2%;
+	flex: 1;
+	border: 5px solid black;
+	padding-bottom: 10px;
+}
+
+div.item-container > h3 {
+	position: relative;
+	left: 15px;
+}
+
+
+span.ap-text {
+
+	background-color: white;
+}
+
+span.vid-leg {
+	margin: 10px;
+}
+
+img.pic-pa {
+	vertical-align: top;
+	float: left;
+	margin-right: 10px;
+}
+
+#Música {
+	background-color: blue;
+}
+
+#Vídeo {
+	background-color: green;
+}
+
+#Desenho {
+	background-color: pink;
+}
+
+.iframe-container{ /*******Para reactive video**********/
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#Vídeo > div.item-container {
+	text-align: center;
+}
+/*******************Experiência Profissional *******************/
+
+#pic {
+	position: absolute;
+	left: 80%;
+	width: 80%;
+	height: 60px;
+}
+
+
+
+
+
+
+		

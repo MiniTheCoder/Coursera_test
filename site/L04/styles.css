@@ -20,7 +20,6 @@ a:hover, a:active {
 }
 
 body li {
-	list-style: none;
 	font-size: 25px;
 	}
 
@@ -41,16 +40,7 @@ section > h2 {
 li span {
 	font-size: 20px;
 }
-
-h1 {
-	margin-bottom: 60px;
-}
 		
-p {
-	text-align: left;
-	width: 80%;
-	font-size: 17px;
-}
 li {
 	padding: 10px;
 }
@@ -67,11 +57,7 @@ li > h2 {
 			display: flex;
 		}
 
-div.item-container {
-	padding: 10px;
-	margin: 5px;
-	text-align: left;
-}
+
 /*************************************/
 /*H************************************************************** USADO EM TODOS FIM *************************/
 
@@ -92,6 +78,7 @@ div.item-container {
 
 #juice {
 	text-align: left;
+	padding: 40px;
 }
 
 #Menu span {
@@ -101,6 +88,19 @@ div.item-container {
 	font-size: 35px;
 	}
 
+.juice-content {
+	margin: 35px;
+	padding-bottom: 35px;
+}
+
+.juice-content li {
+	list-style: disc;
+
+}
+
+.pa-flex {
+	display: flex;
+}
 
 #ar {
 	text-align: center;
@@ -111,7 +111,7 @@ div.item-container {
 	align-content: center;
 }
 
-#RamoArte {
+.RamoArte {
 	background-color: black;
 	padding: 20px;
 	border-radius: 12px;
@@ -126,11 +126,11 @@ div.item-container {
 	margin: 25px;
 }
 
-#RamoArte a {
+.RamoArte a {
 	color: white;
 }
 
-#RamoArte > h3 {
+.RamoArte > h3 {
 	font-size: 30px;
 }
 
@@ -147,6 +147,7 @@ display: grid;
 
 .Formação {
 flex: 1;
+padding: 30px;
 }
 
 main.flex-content li {
@@ -154,6 +155,15 @@ main.flex-content li {
 }
 section.Formação > ul {
 	text-align: left;
+	list-style: none;
+}
+
+div.item-container {
+	padding: 10px;
+	margin: 5px;
+	text-align: left;
+	border-radius: 12px;
+	background-color: wheat;
 }
 
 img.fa-pic{
@@ -172,16 +182,10 @@ img.fa-pic{
 	font-style: italic;
 }
 
-section.formação ul {
-	text-align: left;
-}
-
 /************* Actividade Artistica *********/
 
 #pa-flex.flex-content {
 	box-sizing: border-box;
-	border: 20px solid black;
-	border-radius: 10px;
 	display: flex;
 }
 
@@ -189,7 +193,6 @@ section.formação ul {
 	box-sizing: border-box;
 	margin: 2%;
 	flex: 1;
-	border: 5px solid black;
 	padding-bottom: 10px;
 }
 
@@ -199,9 +202,12 @@ div.item-container > h3 {
 }
 
 
-span.ap-text {
+p.ap-text {
+	text-align: right;
+}
 
-	background-color: white;
+div#filler {
+	height: 80px;
 }
 
 span.vid-leg {
@@ -209,21 +215,17 @@ span.vid-leg {
 }
 
 img.pic-pa {
-	vertical-align: top;
 	float: left;
-	margin-right: 10px;
+	margin: 10px;
 }
 
 #Música {
-	background-color: blue;
 }
 
 #Vídeo {
-	background-color: green;
 }
 
 #Desenho {
-	background-color: pink;
 }
 
 .iframe-container{ /*******Para reactive video**********/
@@ -254,8 +256,10 @@ img.pic-pa {
 	height: 60px;
 }
 
-
-
+#DJ {
+	transform: rotate(90deg);
+	clip: rect(10px);
+}
 
 
 

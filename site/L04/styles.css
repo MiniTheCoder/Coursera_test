@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	background-color: orange;
+	margin: 0px;
 }
 
 h1 {
@@ -62,6 +63,14 @@ li > h2 {
 /*H************************************************************** USADO EM TODOS FIM *************************/
 
 /*H****************** USADO Home Page *************************/
+
+#head{
+	width: 100%;
+	background-image: linear-gradient(to top, #fff0, #ffffffb0);
+	position: relative;
+	bottom: 70px;
+}
+
 #exp{
 	text-align: left;
 
@@ -207,7 +216,7 @@ p.ap-text {
 }
 
 div#filler {
-	height: 80px;
+	height: 10px;
 }
 
 span.vid-leg {
@@ -256,7 +265,7 @@ img.pic-pa {
 	height: 60px;
 }
 
-#DJ {
+.lat {
 	transform: rotate(90deg);
 	clip: rect(10px);
 }

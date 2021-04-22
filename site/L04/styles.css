@@ -2,6 +2,7 @@ body {
 	text-align: center;
 	background-color: orange;
 	margin: 0px;
+	background-image: linear-gradient(to bottom, #fff0, #ffffffb0);
 }
 
 h1 {
@@ -99,8 +100,14 @@ li > h2 {
 
 .juice-content {
 	margin: 35px;
-	padding-bottom: 35px;
+	padding: 25px;
+	border-radius: 24px;
+	border-style: solid;
+	border-color: white;
+	background: wheat;
+	border-width: 20px;
 }
+
 
 .juice-content li {
 	list-style: disc;
@@ -143,7 +150,9 @@ li > h2 {
 	font-size: 30px;
 }
 
-
+section.RamoArte > ul {
+	padding-left: 0px;
+}
 
 #ar li {
 display: grid;
@@ -270,6 +279,11 @@ img.pic-pa {
 	clip: rect(10px);
 }
 
-
+ul.list_acts > li {
+	list-style: none;
+	font-size: 16px;
+	padding: 5px;
+	text-align: right;
+}
 
 		
